@@ -132,7 +132,7 @@ pipeline{
                                     scm {
                                         git {
                                             remote {
-                                                url('http://gitlab-core:80/gitlab/${params.GITLAB_CREATE_GROUP_NAME}/${params.GITLAB_CREATE_PROJECT_NAME}.git')
+                                                url('https://github.com/vamshianhsirk/game-of-life')
                                             }
                                             branches('*/master')
                                             scriptPath('Jenkinsfile')
